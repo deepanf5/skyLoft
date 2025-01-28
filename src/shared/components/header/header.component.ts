@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { PrimeNgModule } from '../../prime-ng/prime-ng.module';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [PrimeNgModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
